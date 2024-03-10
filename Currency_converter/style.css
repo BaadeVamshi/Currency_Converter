@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color:#827191;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 30vw;
+    height: 48vh;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+form {
+    margin-top: 1rem;
+}
+.amount{
+    margin-top: 0.7rem;
+    margin-right: 1rem;
+}
+.amount input{
+    
+    border-radius: 1rem;
+    border: 1.2px solid lightgray;
+    padding: 1rem;
+    width: 100%;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.dropdown i{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.select-container {
+    display: flex;
+    border-radius: 1rem;
+    border: 1.5px solid lightgrey;
+    justify-content: center;
+    align-items: center;
+    width: 7.6rem;
+}
+
+.select-container select{
+    border: none;
+}
+
+.msg {
+    margin-top: 1rem;
+    text-align: center;
+}
+button {
+    height: 3rem;
+    background-color: #af4d98;
+    width: 80%;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+    border: 1.2px solid lightgrey;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.select-container img {
+    max-width: 2.2rem;
+  }
+
+
+  @media screen and (min-width: 250px) and (max-width: 700px) {
+    .select-container {
+        width: 1.5rem;
+    }
+}
