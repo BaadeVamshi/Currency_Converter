@@ -38,7 +38,6 @@ btn.addEventListener("click",async (evnt)=>{
     if(amount.value==1 || amount.value<1){
         amount.value="1"
     }
-    // let url=`${Base_url}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
     let response=await fetch(Base_url);
     let data=await response.json();
     let data1=data.data;
@@ -48,6 +47,3 @@ btn.addEventListener("click",async (evnt)=>{
     msg.innerText = `${amount.value} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 })
 
-// window.addEventListener("load", () => {
-//     updateExchangeRate();
-//   });
